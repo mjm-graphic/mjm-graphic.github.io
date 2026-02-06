@@ -9,5 +9,6 @@ function verifmdp() {
     document.getElementById("icon-unlock").style.display = "block";
   } else {
     document.getElementById("error").style.display = "block";
+    document.getElementById("indice").style.display = "none";
   }
 }
