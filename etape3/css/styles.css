@@ -61,7 +61,7 @@ body{
   height: 50px;
   width: 100%;
   border-bottom: 3px solid var(--color-secondary);
-  background-color: rgb(65, 32, 172);
+  background-color: #fab04a;
 }
 
 form{
