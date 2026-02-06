@@ -18,6 +18,7 @@ function verifmdp() {
     tentatives++;
 
     document.getElementById("error").style.display = "block";
+    document.getElementById("indice").style.display = "none";
 
     if (tentatives === 3) {
       alert("Indice : un très grand magasin de mobilier en 4 lettres");
