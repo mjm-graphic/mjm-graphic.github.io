@@ -1,5 +1,6 @@
 function verifmdp() {
   let mdp = document.getElementById("password").value;
+  mdp = mdp.trimEnd();
   mdp = mdp.toLowerCase();
   mdp = mdp.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   if (mdp === "matteo") {
