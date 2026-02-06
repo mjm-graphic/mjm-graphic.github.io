@@ -97,9 +97,14 @@ form .question {
 label {
   font-family: var(--font-secondary);
   font-weight: 400;
-  font-size: 24px;
+  font-size: 32px;
   color: var(--color-secondary);
-  margin-top: 10px;
+  margin-top: 24px;
+}
+
+input[type="radio"] {
+  transform: scale(2);
+  margin-right: 20px;
 }
 
 .content-form {
